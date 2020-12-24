@@ -1,8 +1,7 @@
-# basic-mysqli-php
-basic query mysqli php
+ Simple-mysqli-php
 
 try :
-
+```php
 define('HOST','LOCALHOST');
 define('USER','ROOT');
 define('PASS','DB-PASS');
@@ -23,5 +22,5 @@ $w_fet=$db->W_FETCH_ARRAY(array('username','password'));
 for($i=0;$i<=count($w_fet)-1;$i++){
   echo $w_fet[$i]['username'];
 }
-
+```
 .... read class
